@@ -1,48 +1,46 @@
-# \# StockApi - Gerenciamento de Estoque Hospitalar
+# \# StockApi - Controle de Estoque Hospitalar
 
 # 
 
-# Este projeto é uma API robusta em desenvolvimento para o controle de insumos e medicamentos, focada em performance e escalabilidade.
+# API desenvolvida em \*\*.NET 10\*\* focada no gerenciamento de insumos e medicamentos para ambiente hospitalar. O projeto utiliza persistência em \*\*SQL Server\*\* e mapeamento via \*\*Entity Framework Core\*\*.
 
 # 
 
-# \## 🛠️ Status do Projeto: Em Construção (Fase de Infraestrutura)
+# \## 🛠️ Status do Projeto
+
+# Fase de estruturação da camada de dados (Data/Models).
 
 # 
 
-# Atualmente, o projeto está na etapa de definição da camada de dados e persistência. O foco inicial é garantir a integridade das informações de produtos e estoque.
+# \## 🏗️ Stack Técnica
+
+# \- \*\*Runtime:\*\* .NET 10 (SDK mais recente)
+
+# \- \*\*ORM:\*\* Entity Framework Core
+
+# \- \*\*Database:\*\* SQL Server
+
+# \- \*\*Interface:\*\* Swagger UI para testes de endpoints
 
 # 
 
-# \## 🏗️ Arquitetura e Tech Stack
+# \## 🎯 Progresso da Implementação
 
-# 
+# \- \[x] Definição da Model `Product` (Entidade base)
 
-# \* \*\*Linguagem:\*\* C# (.NET 8)
+# \- \[x] Configuração do `AppDbContext`
 
-# \* \*\*Banco de Dados:\*\* SQL Server
+# \- \[x] Versionamento de Schema via Migrations
 
-# \* \*\*ORM:\*\* Entity Framework Core
+# \- \[ ] Implementação de Service/Repository Pattern
 
-# \* \*\*Padrão:\*\* REST API com Injeção de Dependência
+# \- \[ ] Endpoints de CRUD (Create/Read/Update/Delete)
 
-# 
-
-# \## 🎯 Objetivos Iniciais
-
-# \- \[x] Modelagem da entidade de Produtos.
-
-# \- \[x] Configuração do Contexto de Banco de Dados (DbContext).
-
-# \- \[x] Versionamento de banco via Migrations.
-
-# \- \[ ] Implementação do CRUD de Estoque (Próximo Passo).
-
-# \- \[ ] Sistema de Autenticação e Login.
+# \- \[ ] Sistema de Autenticação
 
 # 
 
 # \---
 
-# 🚀 \*\*Desenvolvido por Yuri Romariz\*\*
+# \*\*Desenvolvido por Yuri Romariz\*\*
 
